@@ -171,8 +171,6 @@ def actionsonInsurancePage():
         box = driver.find_element_by_class_name('feeddesc')
     
         txt = box.text 
-        print('txt--->',txt)
-        print('content--->',content)
 
         #VALIDATE IF THE REVIEW IS AVAILABLE ON PROFILE PAGE 
         try:
