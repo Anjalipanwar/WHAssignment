@@ -36,8 +36,8 @@ driver.get("https://facebook.com")
 
 time.sleep(2)
 
-username = 'anjali.panwar.friend@gmail.com'
-password = 'newpassword@789'
+username = 'test@gmail.com'
+password = 'test'
 
 email = driver.find_element_by_name('email')
 email.send_keys(username)
