@@ -30,7 +30,7 @@ THIS COMPONENT IS WRITTEN TO EXECUTE IT ON BROWSER SERVER
 #     command_executor='http://anjali123:iVUA3bXREjFn71zEpb15@hub.browserstack.com:80/wd/hub',
 #     desired_capabilities=desired_cap)
 
-# driver = webdriver.Chrome()
+driver = webdriver.Chrome()
 
 driver.get("https://facebook.com")
 
